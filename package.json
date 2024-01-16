@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "api для сервиса регистрации на мероприятие",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "type": "module",
+  "keywords": [
+    "AneliaWEB",
+    "<aneliaweb@internet.ru>"
+  ],
+  "author": "AneliaWEB <aneliaweb@internet.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "inputmask": "^5.0.8",
+    "just-validate": "^4.3.0",
+    "lazysizes": "^5.3.2",
+    "tom-select": "^2.3.1"
+  }
+}
